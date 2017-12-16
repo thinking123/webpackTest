@@ -1,9 +1,5 @@
 import m from './src/main.js'
-const t = 'df'
-
-let q = (msg) => {
-    alert(msg)
-}
+import s from './src/controller/test.controller'
 
 
-q(t)
+

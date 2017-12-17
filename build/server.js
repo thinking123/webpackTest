@@ -16,7 +16,7 @@ var server = new WebpackDevServer(compiler ,{
     stats: { colors: true },
     //reload html template when changed
     // contentBase:'../index.html',
-    watchContentBase: true
+    // watchContentBase: true
 });
 
 server.listen(8080)
